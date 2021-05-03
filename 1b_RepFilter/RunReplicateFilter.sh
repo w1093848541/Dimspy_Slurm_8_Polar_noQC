@@ -28,7 +28,7 @@ dimspy replicate-filter \
 --output RepFilter.$SLURM_JOB_ID \
 --ppm $PPM \
 --replicates $REPLICATES \
---min-peak-present 4 \
+--min-peak-present 3 \
 --report $REPORT_DIR/RepFilterReport.$SLURM_JOB_ID \
 --ncpus $NCPUS
 

@@ -27,8 +27,8 @@ dimspy replicate-filter \
 --input ../1a_ProcessScans/process_scans.out \
 --output RepFilter.$SLURM_JOB_ID \
 --ppm $PPM \
---replicates 8 \
---min-peak-present 6 \
+--replicates 4 \
+--min-peak-present 3 \
 --report $REPORT_DIR/RepFilterReport.$SLURM_JOB_ID \
 --ncpus $NCPUS
 

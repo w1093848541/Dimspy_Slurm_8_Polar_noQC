@@ -34,7 +34,7 @@ dimspy process-scans \
 --min-fraction 0.5 \
 --exclude-scan-events 50.0 620.0 full \
 --report $REPORT_DIR/process_scan_report.$SLURM_JOB_ID \
---ncpus 3
+--ncpus $NCPUS
 
 #optional parameters: --rds-threshold, --skip-stitching, --ncpus
 
